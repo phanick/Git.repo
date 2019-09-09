@@ -8,7 +8,7 @@ pipeline{
 		stage('Two') {
 			steps {
 				echo 'Line in stage PhTwo steps'
-				input(Go ahead?')
+				input('Go ahead?')
 				}
 				}
 		stage('Three') {
